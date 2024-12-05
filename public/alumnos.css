@@ -1,0 +1,33 @@
+.student-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .student-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .student-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .student-detail {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .student-detail.active {
+    display: block;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
